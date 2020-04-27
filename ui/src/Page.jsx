@@ -23,15 +23,6 @@ function NavBar() {
         </LinkContainer>
       </Nav>
       <Nav pullRight>
-        <NavItem>
-          <OverlayTrigger
-            placement="left"
-            delayShow={1000}
-            overlay={<Tooltip id="create-product">Create Product</Tooltip>}
-          >
-            <Glyphicon glyph="plus" />
-          </OverlayTrigger>
-        </NavItem>
         <NavDropdown
           id="user-dropdown"
           title={<Glyphicon glyph="option-vertical" />}
